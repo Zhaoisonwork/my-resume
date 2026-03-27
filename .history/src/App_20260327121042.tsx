@@ -43,7 +43,7 @@ const App: React.FC = () => {
       <div className="starry-sky">
         {/* 星光效果容器 */}
       </div>
-      <Router basename={basename}>
+      <Router basename="/m">
         {/* <OpeningAnimation /> */}
         <Header />
         {/* <LanguageSwitcher /> */}

@@ -36,14 +36,13 @@ const App: React.FC = () => {
       }
     }
   };
-// 1. 自动判断环境：GitHub Actions/Pages 环境下 process.env.NODE_ENV 会是 'production'
-  const basename = process.env.NODE_ENV === 'production' ? '/my-resume' : '';
+
   return (
     <div className="app-container">
       <div className="starry-sky">
         {/* 星光效果容器 */}
       </div>
-      <Router basename={basename}>
+      const basename = process.env.NODE_ENV === 'production' ? '/my-resume' : '';
         {/* <OpeningAnimation /> */}
         <Header />
         {/* <LanguageSwitcher /> */}

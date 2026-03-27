@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 // import ChatBox from './components/chatbox';
 import './App.css';
 import './i18n';
+import { basename } from 'path/win32';
 // import OpeningAnimation from '/Users/guoguo/Desktop/my-resume/src/components/openinganimation';
 
 const App: React.FC = () => {
@@ -36,14 +37,17 @@ const App: React.FC = () => {
       }
     }
   };
-// 1. 自动判断环境：GitHub Actions/Pages 环境下 process.env.NODE_ENV 会是 'production'
-  const basename = process.env.NODE_ENV === 'production' ? '/my-resume' : '';
+
   return (
     <div className="app-container">
       <div className="starry-sky">
         {/* 星光效果容器 */}
       </div>
-      <Router basename={basename}>
+        // 自动判断：如果是生产环境（GitHub），使用 /my-resume；如果是本地，使用根目录 /
+        const basename = process.env.NODE_ENV === 'production' ? '/my-resume' : '';
+
+// 然后在 Return 里使用它
+              <Router basename={basename}>
         {/* <OpeningAnimation /> */}
         <Header />
         {/* <LanguageSwitcher /> */}

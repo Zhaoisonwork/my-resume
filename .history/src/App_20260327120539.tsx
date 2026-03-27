@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 // import HomePage from '/Users/guoguo/Desktop/my-resume/src/pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
@@ -36,20 +36,18 @@ const App: React.FC = () => {
       }
     }
   };
-// 1. 自动判断环境：GitHub Actions/Pages 环境下 process.env.NODE_ENV 会是 'production'
-  const basename = process.env.NODE_ENV === 'production' ? '/my-resume' : '';
+
   return (
     <div className="app-container">
       <div className="starry-sky">
         {/* 星光效果容器 */}
       </div>
-      <Router basename={basename}>
+<Router basename="/my-resume"></Router>
         {/* <OpeningAnimation /> */}
         <Header />
         {/* <LanguageSwitcher /> */}
         <Routes>
           {/* <Route path="/" element={<HomePage />} /> */}
-          <Route path="/" element={<Navigate to="/about" replace />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
           {/* <Route path="/chatbox" element={<ChatBox />} /> */}

@@ -8,7 +8,7 @@ const HomePage: React.FC = () => {
       <p>Welcome to my homepage!</p>
       <p>This is a testvideo!!!!</p>
       <div className="video-container">
-        {/* <BackgroundVideo /> */}
+        <BackgroundVideo />
       </div>
     </div>
   );
