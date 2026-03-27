@@ -1,42 +1,14 @@
 {
   "files": {
-    "main.css": "/Iamnotsnowwhite/static/css/main.6d16c185.css",
-    "main.js": "/Iamnotsnowwhite/static/js/main.31cdafb2.js",
-    "reactPlayerYouTube.js": "/Iamnotsnowwhite/static/js/reactPlayerYouTube.f1790361.chunk.js",
-    "reactPlayerSoundCloud.js": "/Iamnotsnowwhite/static/js/reactPlayerSoundCloud.218df04e.chunk.js",
-    "reactPlayerVimeo.js": "/Iamnotsnowwhite/static/js/reactPlayerVimeo.99a33470.chunk.js",
-    "reactPlayerMux.js": "/Iamnotsnowwhite/static/js/reactPlayerMux.988f9f8f.chunk.js",
-    "reactPlayerFacebook.js": "/Iamnotsnowwhite/static/js/reactPlayerFacebook.b0d262c0.chunk.js",
-    "reactPlayerStreamable.js": "/Iamnotsnowwhite/static/js/reactPlayerStreamable.58fada86.chunk.js",
-    "reactPlayerWistia.js": "/Iamnotsnowwhite/static/js/reactPlayerWistia.19a1828b.chunk.js",
-    "reactPlayerTwitch.js": "/Iamnotsnowwhite/static/js/reactPlayerTwitch.e40e01f7.chunk.js",
-    "reactPlayerDailyMotion.js": "/Iamnotsnowwhite/static/js/reactPlayerDailyMotion.8ae00871.chunk.js",
-    "reactPlayerMixcloud.js": "/Iamnotsnowwhite/static/js/reactPlayerMixcloud.44809e71.chunk.js",
-    "reactPlayerVidyard.js": "/Iamnotsnowwhite/static/js/reactPlayerVidyard.d3852cbf.chunk.js",
-    "reactPlayerKaltura.js": "/Iamnotsnowwhite/static/js/reactPlayerKaltura.cdf6ed37.chunk.js",
-    "reactPlayerFilePlayer.js": "/Iamnotsnowwhite/static/js/reactPlayerFilePlayer.ea067d67.chunk.js",
-    "reactPlayerPreview.js": "/Iamnotsnowwhite/static/js/reactPlayerPreview.3dd80465.chunk.js",
-    "static/media/IMG_0673.PNG": "/Iamnotsnowwhite/static/media/IMG_0673.b0d1a406c85c9b814d20.PNG",
-    "index.html": "/Iamnotsnowwhite/index.html",
-    "main.6d16c185.css.map": "/Iamnotsnowwhite/static/css/main.6d16c185.css.map",
-    "main.31cdafb2.js.map": "/Iamnotsnowwhite/static/js/main.31cdafb2.js.map",
-    "reactPlayerYouTube.f1790361.chunk.js.map": "/Iamnotsnowwhite/static/js/reactPlayerYouTube.f1790361.chunk.js.map",
-    "reactPlayerSoundCloud.218df04e.chunk.js.map": "/Iamnotsnowwhite/static/js/reactPlayerSoundCloud.218df04e.chunk.js.map",
-    "reactPlayerVimeo.99a33470.chunk.js.map": "/Iamnotsnowwhite/static/js/reactPlayerVimeo.99a33470.chunk.js.map",
-    "reactPlayerMux.988f9f8f.chunk.js.map": "/Iamnotsnowwhite/static/js/reactPlayerMux.988f9f8f.chunk.js.map",
-    "reactPlayerFacebook.b0d262c0.chunk.js.map": "/Iamnotsnowwhite/static/js/reactPlayerFacebook.b0d262c0.chunk.js.map",
-    "reactPlayerStreamable.58fada86.chunk.js.map": "/Iamnotsnowwhite/static/js/reactPlayerStreamable.58fada86.chunk.js.map",
-    "reactPlayerWistia.19a1828b.chunk.js.map": "/Iamnotsnowwhite/static/js/reactPlayerWistia.19a1828b.chunk.js.map",
-    "reactPlayerTwitch.e40e01f7.chunk.js.map": "/Iamnotsnowwhite/static/js/reactPlayerTwitch.e40e01f7.chunk.js.map",
-    "reactPlayerDailyMotion.8ae00871.chunk.js.map": "/Iamnotsnowwhite/static/js/reactPlayerDailyMotion.8ae00871.chunk.js.map",
-    "reactPlayerMixcloud.44809e71.chunk.js.map": "/Iamnotsnowwhite/static/js/reactPlayerMixcloud.44809e71.chunk.js.map",
-    "reactPlayerVidyard.d3852cbf.chunk.js.map": "/Iamnotsnowwhite/static/js/reactPlayerVidyard.d3852cbf.chunk.js.map",
-    "reactPlayerKaltura.cdf6ed37.chunk.js.map": "/Iamnotsnowwhite/static/js/reactPlayerKaltura.cdf6ed37.chunk.js.map",
-    "reactPlayerFilePlayer.ea067d67.chunk.js.map": "/Iamnotsnowwhite/static/js/reactPlayerFilePlayer.ea067d67.chunk.js.map",
-    "reactPlayerPreview.3dd80465.chunk.js.map": "/Iamnotsnowwhite/static/js/reactPlayerPreview.3dd80465.chunk.js.map"
+    "main.css": "/my-resume/static/css/main.231766e2.css",
+    "main.js": "/my-resume/static/js/main.f9d52033.js",
+    "static/media/IMG_0673.PNG": "/my-resume/static/media/IMG_0673.b0d1a406c85c9b814d20.PNG",
+    "index.html": "/my-resume/index.html",
+    "main.231766e2.css.map": "/my-resume/static/css/main.231766e2.css.map",
+    "main.f9d52033.js.map": "/my-resume/static/js/main.f9d52033.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d16c185.css",
-    "static/js/main.31cdafb2.js"
+    "static/css/main.231766e2.css",
+    "static/js/main.f9d52033.js"
   ]
 }
