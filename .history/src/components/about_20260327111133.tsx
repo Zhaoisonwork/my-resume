@@ -42,7 +42,7 @@ const About: React.FC = () => {
             <p>{t("(2020 - now)")}</p>
           </li>
           <li>
-            <h3>{t("Freelance Illustrator")}</h3>
+            <h3>{t("freelance illustrator")}</h3>
             <p>{t("Beemybox - Designed Landing page and product packaging")} </p>
             <p>{t("Yixue Bildungszentrum - Illustration greeting cards and book illustrations")}</p>
             <p>{t("(2019 - now)")}</p>
@@ -54,9 +54,8 @@ const About: React.FC = () => {
           <h2>{t("Projects")}</h2>
           <ul>
             <li>
-              <h3>{t("Projects in university")}</h3>
-              {/* <h3>{t("Data Analysis with Python")}</h3>
-              <p>{t("Object-Oriented Programming Project")}</p> */}
+              <h3>{t("Data Analysis with Python")}</h3>
+              <p>{t("Object-Oriented Programming Project")}</p>
               <a href="https://github.com/Iamnotsnowwhite?tab=repositories">Have a look</a>
             </li>
             {/* <li>
@@ -70,11 +69,11 @@ const About: React.FC = () => {
         <section id="skills">
           <h2>{t("Skills")}</h2>
           <ul>
-            <li>{t("Programming Languages: JavaScript, TypeScript, Python, Java, C, Haskell")}</li>
+            <li>{t("Programming Languages: JavaScript, TypeScript, Python, Java, C/C++, Haskell")}</li>
             <li>{t("Front-End: React, HTML, CSS")}</li>
-            <li>{t("Back-End: Node.js, Express, SQL")}</li>
-            <li>{t("Tools: Git, Ticketsystem - Jira")}</li>
-            <li>{t("Design: Flyer production, UI/UX Design")}</li>
+            <li>{t("Back-End: Node.js, Express, MongoDB")}</li>
+            <li>{t("Tools: Git")}</li>
+            <li>{t("Design: Flyer production")}</li>
             <li>{t("Illustration/Painting: More realistic style")}</li>
             <li>{t("Tools/Programs (Computer): Adobe Illustrator, Photoshop, InDesign, Blender")}</li>
             <li>{t("Tools/Programs (iPad): Procreate, Nomad")}</li>

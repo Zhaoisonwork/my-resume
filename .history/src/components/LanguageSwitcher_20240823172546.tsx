@@ -13,7 +13,6 @@ const LanguageSwitcher: React.FC = () => {
 
   const changeLanguage = (lng: string) => {
     i18n.changeLanguage(lng);
-    console.log('Current language:', i18n.language); // 打印当前语言代码
     setIsOpen(false); // 关闭下拉列表
   };
 

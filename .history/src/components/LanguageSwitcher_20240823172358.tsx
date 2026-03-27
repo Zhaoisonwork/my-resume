@@ -1,11 +1,11 @@
 // src/components/LanguageSwitcher.tsx
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import '/Users/guoguo/Desktop/my-resume/src/LanguageSwitcher.css'; 
+import '/Users/guoguo/Desktop/my-resume/src/LanguageSwitcher.css'; // 根据你的项目结构调整路径
 
-const LanguageSwitcher: React.FC = () => {
-  const { i18n } = useTranslation();
-  const [isOpen, setIsOpen] = useState(false);
+const LanguageSwitcher: = (lng: string) => {
+  i18n.changeLanguage(lng);
+  setIsOpen(false); 
 
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
@@ -13,7 +13,6 @@ const LanguageSwitcher: React.FC = () => {
 
   const changeLanguage = (lng: string) => {
     i18n.changeLanguage(lng);
-    console.log('Current language:', i18n.language); // 打印当前语言代码
     setIsOpen(false); // 关闭下拉列表
   };
 

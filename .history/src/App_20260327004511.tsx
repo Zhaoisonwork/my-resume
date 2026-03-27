@@ -9,7 +9,7 @@ import Footer from '/Users/guoguo/Desktop/my-resume/src/components/Footer';
 import ChatBox from './components/chatbox';
 import '/Users/guoguo/Desktop/my-resume/src/App.css';
 import '/Users/guoguo/Desktop/my-resume/src/i18n';
-// import OpeningAnimation from '/Users/guoguo/Desktop/my-resume/src/components/openinganimation';
+import OpeningAnimation from '/Users/guoguo/Desktop/my-resume/src/components/openinganimation';
 
 const App: React.FC = () => {
   useEffect(() => {
@@ -43,11 +43,11 @@ const App: React.FC = () => {
         {/* 星光效果容器 */}
       </div>
       <Router>
-        {/* <OpeningAnimation /> */}
+        <OpeningAnimation />
         <Header />
-        {/* <LanguageSwitcher /> */}
+        <LanguageSwitcher />
         <Routes>
-          {/* <Route path="/" element={<HomePage />} /> */}
+          <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
           {/* <Route path="/chatbox" element={<ChatBox />} /> */}

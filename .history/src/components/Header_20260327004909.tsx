@@ -14,7 +14,7 @@ const Header: React.FC = () => {
       <nav>
         <ul>
         {/* <Link to="/">Homepage</Link> | */}
-        <Link to="/about">About me</Link> | <Link to="/contact">Contact</Link> 
+        <Link to="/about">About me</Link> | <Link to="/contact">Contact</Link>  */}
         {/* | <Link to="/chatbox">ChatBox</Link> */}
         </ul>
       </nav>

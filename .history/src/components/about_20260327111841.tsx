@@ -54,9 +54,8 @@ const About: React.FC = () => {
           <h2>{t("Projects")}</h2>
           <ul>
             <li>
-              <h3>{t("Projects in university")}</h3>
-              {/* <h3>{t("Data Analysis with Python")}</h3>
-              <p>{t("Object-Oriented Programming Project")}</p> */}
+              <h3>{t("Data Analysis with Python")}</h3>
+              <p>{t("Object-Oriented Programming Project")}</p>
               <a href="https://github.com/Iamnotsnowwhite?tab=repositories">Have a look</a>
             </li>
             {/* <li>

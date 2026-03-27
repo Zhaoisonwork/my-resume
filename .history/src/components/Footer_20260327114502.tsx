@@ -6,9 +6,9 @@ const Footer: React.FC = () => {
   return (
     <footer>
       <p>{t("© Zhao's Portfolio")}</p>
-      {/* <nav>
+      <nav>
         <a href="/privacy">Privacy Policy</a> | <a href="/terms">Terms of Service</a>
-      </nav> */}
+      </nav>
     </footer>
   );
 }

@@ -13,8 +13,7 @@ const Header: React.FC = () => {
       <h1>{t("I'm Zhaoguo Wei")}</h1>
       <nav>
         <ul>
-        {/* <Link to="/">Homepage</Link> | */}
-        <Link to="/about">About me</Link> | <Link to="/contact">Contact</Link> 
+        {/* <Link to="/">Homepage</Link> | <Link to="/about">About me</Link> | <Link to="/contact">Contact</Link>  */}
         {/* | <Link to="/chatbox">ChatBox</Link> */}
         </ul>
       </nav>
